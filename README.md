@@ -2,7 +2,7 @@
 📘 **README.md**
 
 ```markdown
-### 🚀 RAG-based NLP → SQL Query Generator  
+ 🚀 RAG-based NLP → SQL Query Generator  
 Convert **natural language questions** into **accurate SQL queries** using a **Retrieval-Augmented Generation (RAG)** pipeline powered by **FastAPI, Streamlit, FAISS Vector Store, and Ollama LLM**.
 
 ---
