@@ -1,4 +1,6 @@
 
+---
+
 # 📘 **README.md**
 
 ```markdown
@@ -10,10 +12,10 @@ Convert **natural language questions** into **accurate SQL queries** using a **R
 ## 🎥 Demo Videos
 
 ### 🔹 FastAPI Swagger Demo  
-![FastAPI Demo](output_videos\swagger.mp4)
+![FastAPI Demo](output_videos\stream.gif)
 
 ### 🔹 Streamlit UI Demo  
-![Streamlit Demo](output_videos\streamlitt.mp4)
+![Streamlit Demo](demo_2.gif)
 
 ---
 
@@ -215,4 +217,5 @@ MIT License
 ## 👨‍💻 Author
 
 Mohd Zakir
+
 
