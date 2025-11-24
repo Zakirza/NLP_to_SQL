@@ -1,25 +1,25 @@
 
 ---
 
-# 📘 **README.md**
+📘 **README.md**
 
-```markdown
+```
 # 🚀 RAG-based NLP → SQL Query Generator  
 Convert **natural language questions** into **accurate SQL queries** using a **Retrieval-Augmented Generation (RAG)** pipeline powered by **FastAPI, Streamlit, FAISS Vector Store, and Ollama LLM**.
 
 ---
 
-## 🎥 Demo Videos
+🎥 Demo Videos
 
-### 🔹 FastAPI Swagger Demo  
+ 🔹 FastAPI Swagger Demo  
 ![FastAPI Demo](demo_1.gif)
 
-### 🔹 Streamlit UI Demo  
+ 🔹 Streamlit UI Demo  
 ![Streamlit Demo](output_videos\streamm.gif)
 
 ---
 
-## 📌 Overview
+ 📌 Overview
 
 This project transforms **human questions into SQL queries** using a hybrid RAG architecture that understands database schema, retrieves relevant table/column info using embeddings, and generates accurate SQL commands using an LLM.
 
