@@ -1,3 +1,21 @@
+Perfect.
+Here is your **final, polished, production-quality README.md** for:
+
+# 🚀 **RAG-based NLP → SQL Query Generator**
+
+This includes:
+
+* Beautiful formatting
+* Two demo GIFs
+* Architecture & workflow
+* Installation + Running steps
+* FastAPI + Streamlit
+* Ollama model integration
+* Vector DB setup
+* Example queries
+* Future roadmap
+
+You can copy–paste directly into your repository.
 
 ---
 
@@ -12,10 +30,10 @@ Convert **natural language questions** into **accurate SQL queries** using a **R
 ## 🎥 Demo Videos
 
 ### 🔹 FastAPI Swagger Demo  
-![FastAPI Demo](output_videos\stream.gif)
+![FastAPI Demo](demo_1.gif)
 
 ### 🔹 Streamlit UI Demo  
-![Streamlit Demo](demo_2.gif)
+![Streamlit Demo](output_videos\streamm.gif)
 
 ---
 
@@ -218,4 +236,27 @@ MIT License
 
 Mohd Zakir
 
+If you need:
 
+* A logo
+* A workflow diagram
+* Deployment (Docker, Railway, Render, HuggingFace Spaces)
+
+Just tell me!
+
+```
+
+---
+
+# 🎉 Your README is ready!
+
+If you'd like:
+
+✔️ Add architecture diagram  
+✔️ Logo/banner  
+✔️ Add a “Try it live” badge  
+✔️ Generate project thumbnail  
+✔️ Improve styling to premium-level  
+
+Just tell me — I can enhance it further!
+```
