@@ -1,21 +1,3 @@
-Perfect.
-Here is your **final, polished, production-quality README.md** for:
-
-# 🚀 **RAG-based NLP → SQL Query Generator**
-
-This includes:
-
-* Beautiful formatting
-* Two demo GIFs
-* Architecture & workflow
-* Installation + Running steps
-* FastAPI + Streamlit
-* Ollama model integration
-* Vector DB setup
-* Example queries
-* Future roadmap
-
-You can copy–paste directly into your repository.
 
 ---
 
