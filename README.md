@@ -1,20 +1,20 @@
 ```markdown
-# RAG-based NLP → SQL Query Generator
+ RAG-based NLP → SQL Query Generator
 Convert **natural language questions** into **accurate SQL queries** using a Retrieval-Augmented Generation (RAG) pipeline powered by FastAPI, Streamlit, FAISS Vector Store, and Ollama LLM.
 
 ---
 
-## Demo Videos
+ Demo Videos
 
-### FastAPI Swagger Demo
+ FastAPI Swagger Demo
 ![FastAPI Demo](demo_1.gif)
 
-### Streamlit UI Demo
+ Streamlit UI Demo
 ![Streamlit Demo](output_videos/streamm.gif)
 
 ---
 
-## Overview
+ Overview
 
 This project converts **human natural language** into **SQL queries** using an intelligent Retrieval-Augmented Generation (RAG) architecture.
 
@@ -23,7 +23,7 @@ The system:
 - Retrieves relevant tables/columns using embeddings  
 - Generates accurate SQL using an LLM (Ollama LLaMA 3)
 
-### Features
+ Features
 - Schema extraction from MySQL  
 - Semantic search using FAISS  
 - SQL generation using Ollama LLM  
@@ -33,7 +33,7 @@ The system:
 
 ---
 
-## Architecture
+ Architecture
 
 ```
 
@@ -41,7 +41,7 @@ User Query → Embeddings → FAISS Vector Store → Retrieved Schema → LLM Pr
 
 ```
 
-### Components
+ Components
 - Schema Extractor  
 - Embedder (MiniLM embeddings)  
 - FAISS Vector Store  
@@ -52,7 +52,7 @@ User Query → Embeddings → FAISS Vector Store → Retrieved Schema → LLM Pr
 
 ---
 
-## Project Structure
+ Project Structure
 
 ```
 
@@ -70,15 +70,15 @@ User Query → Embeddings → FAISS Vector Store → Retrieved Schema → LLM Pr
 
 ---
 
-## Installation
+ Installation
 
-### 1. Clone the repository
+ 1. Clone the repository
 ```bash
 git clone https://github.com/<your-username>/nlp-to-sql.git
 cd nlp-to-sql
 ````
 
-### 2. Create a virtual environment
+ 2. Create a virtual environment
 
 ```bash
 python -m venv nlp_env
@@ -87,7 +87,7 @@ source nlp_env/Scripts/activate       # Windows
 source nlp_env/bin/activate           # Linux / macOS
 ```
 
-### 3. Install dependencies
+ 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -95,7 +95,7 @@ pip install -r requirements.txt
 
 ---
 
-## Environment Variables
+ Environment Variables
 
 Create a `.env` file:
 
@@ -107,7 +107,7 @@ MODEL_NAME=llama3
 
 ---
 
-## Step 1: Ingest Schema & Build Vector Store
+ Step 1: Ingest Schema & Build Vector Store
 
 Run FastAPI backend:
 
@@ -141,7 +141,7 @@ vector_store.faiss
 
 ---
 
-## Step 2: Start Streamlit UI
+ Step 2: Start Streamlit UI
 
 ```bash
 streamlit run streamlit_app.py
@@ -155,7 +155,7 @@ Enter natural language queries such as:
 
 ---
 
-## LLM Used
+ LLM Used
 
 This project uses **Ollama LLaMA 3** by default.
 
@@ -173,15 +173,15 @@ MODEL_NAME=llama3
 
 ---
 
-## Example Query
+ Example Query
 
-### Input:
+ Input:
 
 ```
 Show total salary grouped by department.
 ```
 
-### Output SQL:
+ Output SQL:
 
 ```sql
 SELECT department, SUM(salary)
@@ -190,8 +190,7 @@ GROUP BY department;
 ```
 
 ---
-
-## Future Improvements
+ Future Improvements
 
 * Schema visualization
 * Multi-table join reasoning
@@ -201,12 +200,12 @@ GROUP BY department;
 
 ---
 
-## License
+ License
 
 MIT License
 
 ---
 
-## Author
+ Author
 
 **Mohd Zakir**
