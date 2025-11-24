@@ -9,3 +9,5 @@ pandas
 scikit-learn
 torch
 python-dotenv
+mysql-connector-python
+sqlparse
